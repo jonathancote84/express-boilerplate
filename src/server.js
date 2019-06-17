@@ -1,5 +1,5 @@
 const app=require('./app')
-const { PORT } = reuquire('./config')
+const { PORT } = require('./config')
 
 
 app.listen(PORT, () => {
